@@ -1,0 +1,29 @@
+body {
+	text-align: center;
+	background-color: #AAB6FB;
+	color: #031B88;
+	display: grid;
+	font-family: 'Patrick Hand';
+}
+
+#Name, #Submit {
+	align-content: center;
+	background-color: #AAB6FB;
+	color: #031B88;
+	border-radius: 10px;
+	font-family: 'Patrick Hand';
+}
+
+::placeholder {   
+	color: #031B88;
+	opacity: 0.5; 
+}
+
+#Submit {
+	border-radius: 100px;
+}
+
+footer{
+	color: #000000;
+	font-style: italic;
+}

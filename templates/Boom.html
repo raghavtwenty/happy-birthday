@@ -1,0 +1,40 @@
+<!--
+Application Name: HBD Fireworks
+Designed and Developed by: Raghava, Kendriya Vidyalaya, Coimbatore. [2021]
+Created On: 2 August 2021
+Last Modified On: 5 August 2021
+Version Info: 1.0
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+		
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=
+		Patrick Hand">
+    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+    	<script type="text/javascript" src="{{ url_for('static', filename='jquery.fireworks.js') }}"></script>
+
+    	<script>
+			$(document).ready(function(){
+    			setTimeout(function() {
+        		$('body').fireworks();
+    			});
+			});
+		</script>
+
+		<title> 🐣 HBD !!! </title>
+	</head>
+	<body>
+		<h1 class="blue"> 🥚🐣🐥 </h1>
+		<h1 class="blue"> HAPPY BIRTHDAY </h1>
+		<h1 class="blue"> {{ NAME }} </h1>
+
+		<h1 class="blue"> 🥳 🍰 ✨ 🤩 🎂 🌟 😇 🍭 💫 </h1>
+		<footer> © Designed & Developed by Raghava, Kendriya Vidyalaya, Coimbatore. [2021] </br> Visitor Count: {{ VISITOR_COUNT }}</footer>
+	</body>
+</html>
