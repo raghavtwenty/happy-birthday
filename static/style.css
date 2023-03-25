@@ -24,6 +24,8 @@ body {
 }
 
 footer{
-	color: #000000;
+	bottom : 0;
+	color: black;
 	font-style: italic;
+	width: 100%;
 }

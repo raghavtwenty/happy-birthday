@@ -3,7 +3,7 @@ Application Name: HBD Fireworks
 Designed and Developed by: Raghav, Kendriya Vidyalaya, Coimbatore. [2021]
 Github : @raghavtwenty
 Created On: 2 August 2021
-Last Modified On: 5 August 2021
+Last Modified On: March 25, 2023
 Version Info: 1.0
 '''
 
@@ -48,7 +48,7 @@ def greet():
 	VCI_File.write(str(Counter))
 	
 	return render_template('Boom.html',
-		NAME = name_l, VISITOR_COUNT = Counter)
+		NAME = name_l.upper(), VISITOR_COUNT = Counter)
 
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
