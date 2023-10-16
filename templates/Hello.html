@@ -1,0 +1,33 @@
+<!--
+Application Name: HBD Fireworks
+Designed and Developed by: Raghava, Kendriya Vidyalaya, Coimbatore. [2021]
+Created On: 2 August 2021
+Last Modified On: 5 August 2021
+Version Info: 1.0
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+		
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=
+		Patrick Hand">
+		<title> Hello </title>
+	</head>
+	<body>
+	<h1 class="blue"> Hello </h1>
+	<form action='/Boom' method = 'post'>
+		<input type="text", name="Name", autofocus 
+				placeholder= "What's your name?", id="Name">
+		<br>
+		<input type="submit", name="submit", placeholder="Submit"
+				value="➤", id="Submit">
+	</form>
+	</body>
+</html>
+
+
+
